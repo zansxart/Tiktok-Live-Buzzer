@@ -1,18 +1,33 @@
-# Node modules
+# Dependency folders
 node_modules/
+jspm_packages/
 
-# Environment variables
+# Environment variables (Sangat Rahasia!)
 .env
+.env.test
+.env.production
 
-# Session & Cookies
+# Akun & Sesi (Sangat Rahasia!)
 cookies/
 *.json.bak
+session.json
 
 # Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
 # OS Files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+
+# Tmp/Cache
+.tmp/
+.cache/
